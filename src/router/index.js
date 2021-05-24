@@ -5,7 +5,7 @@ import manager from '../pages/manager.vue'
 import intro from '../pages/intro.vue'
 
 
-const routerHistory = createWebHistory()
+const routerHistory = createWebHistory('/mfwt/')
 
 const router = createRouter({
   history: routerHistory,

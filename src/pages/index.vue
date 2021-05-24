@@ -56,9 +56,10 @@ export default {
       justify-content: center;
       align-items: center;
       font-size: 2.5rem;
-      letter-spacing: 10px;
       color: #03e9f4;
+      border-radius: 14px;
       text-decoration: none;
+      text-align: right;
       &:nth-child(1) {
         filter: hue-rotate(270deg);
       }
@@ -73,7 +74,18 @@ export default {
         0 0 200px #03e9f4;
         -webkit-box-reflect: below 20px linear-gradient(transparent, #0005);
       }
-      
+    }
+  }
+  @media screen and (max-width: 960px){
+    .btn {
+      width: 30% !important;
+      background-color: #03e9f4;
+      color: #232526 !important;
+      box-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 200px #03e9f4;
+      -webkit-box-reflect: below 20px linear-gradient(transparent, #0005);
+      font-size: 1.5rem !important;
     }
   }
   @keyframes title {

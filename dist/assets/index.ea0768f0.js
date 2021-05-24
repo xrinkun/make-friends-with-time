@@ -1,1 +1,0 @@
-import{p as a,a as s,o as e,c as o,w as t,b as c,d}from"./vendor.58192c6e.js";const p={data:()=>({}),method:{}},n=t();a("data-v-fb76ce32");const r={class:"wrapper"},v=c("div",{class:"content"},"朱总，您好",-1);s();const m=n(((a,s,t,c,d,p)=>(e(),o("div",r,[v]))));p.render=m,p.__scopeId="data-v-fb76ce32";d({expose:[],setup:a=>(a,s)=>(e(),o(p))}).mount("#app");

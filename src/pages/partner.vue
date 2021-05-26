@@ -127,7 +127,11 @@ export default {
           }
         }
       }
-      
+    }
+    @media screen and (max-width: 960px){
+      .item {
+        width: 350px;
+      }
     }
   }
 }

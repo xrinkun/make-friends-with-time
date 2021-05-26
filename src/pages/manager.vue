@@ -52,6 +52,20 @@ export default {
       font-size: 5rem;
       letter-spacing: 10px;
     }
+    @media screen and (max-width: 960px){
+      .archivements>li {
+      font-size: 1.5rem;
+      margin-bottom: 100px;
+    }
+      .tips {
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+        font-size: 2.5rem;
+        letter-spacing: 0;
+      }
+    }
   }
 }
 </style>

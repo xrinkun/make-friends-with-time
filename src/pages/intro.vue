@@ -1,5 +1,7 @@
 <template>
-  <div class="wrapper">TODO</div>
+  <div class="wrapper">
+    <div class="content">抱歉, 本项目不对外开放</div>
+  </div>
 </template>
 
 <script>
@@ -17,7 +19,24 @@ export default {
 
 <style scoped lang="scss">
 .wrapper {
-  margin: 0;
-  color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title {
+    padding: 40px;
+    font-size: 3rem;
+    color: whitesmoke;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 6rem;
+    font-weight: 800;
+    color: whitesmoke;
+  }
 }
 </style>

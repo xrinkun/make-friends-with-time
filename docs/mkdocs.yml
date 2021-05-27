@@ -1,7 +1,0 @@
-site_name: 时间的朋友图书馆
-theme:
-        name: "material"
-        palette:
-                primary: "black"
-                accent: "deep orange"
-        language: "zh" 

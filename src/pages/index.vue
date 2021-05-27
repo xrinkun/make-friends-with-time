@@ -4,7 +4,7 @@
     <div class="btn-group">
       <router-link class="btn" to="/partner">合伙人</router-link>
       <router-link class="btn" to="/manager">经理</router-link>
-      <router-link class="btn" to="/docs/">图书馆</router-link>
+      <div class="btn" @click="jumpTo('/docs/')">图书馆</div>
       <router-view></router-view>
     </div>
   </div>
@@ -20,6 +20,9 @@ export default {
   methods: {
     navigateTo(path) {
       this.$router.push(path)
+    },
+    jumpTo(url) {
+      window.location.href = '/mfwt' + url 
     }
   }
 }
@@ -60,6 +63,7 @@ export default {
       border-radius: 14px;
       text-decoration: none;
       text-align: right;
+      cursor: pointer;
       &:nth-child(1) {
         filter: hue-rotate(270deg);
       }

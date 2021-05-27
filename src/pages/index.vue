@@ -4,7 +4,7 @@
     <div class="btn-group">
       <router-link class="btn" to="/partner">合伙人</router-link>
       <router-link class="btn" to="/manager">经理</router-link>
-      <router-link class="btn" to="/docs">图书馆</router-link>
+      <router-link class="btn" to="/docs/">图书馆</router-link>
       <router-view></router-view>
     </div>
   </div>

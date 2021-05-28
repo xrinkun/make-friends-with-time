@@ -1,7 +1,10 @@
 site_name: 时间的朋友图书馆
 theme:
-        name: "material"
-        palette:
-                primary: "black"
-                accent: "deep orange"
-        language: "zh" 
+    name: "material"
+    palette:
+        primary: "black"
+        accent: "deep orange"
+language: "zh" 
+nav:
+    欢迎: index.md
+    小谢笔记: sora/sora.md 

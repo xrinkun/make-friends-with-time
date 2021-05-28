@@ -6,5 +6,5 @@ theme:
         accent: "deep orange"
 language: "zh" 
 nav:
-    欢迎: index.md
-    小谢笔记: sora/sora.md
+   - 欢迎: index.md
+   - 小谢笔记: sora/sora.md
